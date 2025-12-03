@@ -49,8 +49,7 @@ npm run dev
 
 
 Open in browser
-
-http://localhost:3000
+https://phonepe-expense-tracker.vercel.app/
 
 📁 Project Structure (Example)
 /assets        # images, icons, SVGs  
