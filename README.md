@@ -57,3 +57,10 @@ https://phonepe-expense-tracker.vercel.app/
 /js            # script files  
 index.html     # main entry file  
 README.md      # project documentation
+
+##Author
+
+Amar Singh
+💼 Frontend Developer | AI Enthusiast
+🔗 Portfolio: https://new-portfolio-chi-tawny.vercel.app/
+📧 Email: amarsmy2201@gmail.com
