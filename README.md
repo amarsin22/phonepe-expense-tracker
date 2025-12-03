@@ -1,16 +1,60 @@
-# React + Vite
+## PhonePe-Style Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and user-friendly expense tracking web app inspired by PhonePe’s clean UI.
+Track your daily expenses, manage transactions, and keep your finances organized — all in one simple dashboard.
 
-Currently, two official plugins are available:
+🌐 Live Demo: https://phonepe-expense-tracker.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+➕ Add new expenses with title, amount, and category
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📋 View all transactions in a clean, card-style layout
 
-## Expanding the ESLint configuration
+🔄 Automatically updates total balance and expense count
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Fully responsive for mobile, tablet, and desktop
+
+🟣 PhonePe-inspired modern UI design
+
+💾 Local browser storage (optional based on your implementation)
+
+⚡ Smooth animations and instant updates
+
+🧰 Tech Stack
+Category	Technology
+Frontend	HTML, CSS, JavaScript
+Styling	Custom CSS (utility styles, gradients, responsive layout)
+Storage	LocalStorage (if implemented for saving expenses)
+Hosting	Vercel
+Icons	Custom SVGs / PhonePe-style theme
+🛠️ Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/<your-username>/phonepe-expense-tracker.git
+cd phonepe-expense-tracker
+
+
+Open the project
+If it's a simple HTML/CSS/JS project:
+
+# Just open the index.html file
+
+
+Or if you’re using a local dev server:
+
+npm install
+npm run dev
+
+
+Open in browser
+
+http://localhost:3000
+
+📁 Project Structure (Example)
+/assets        # images, icons, SVGs  
+/css           # stylesheets  
+/js            # script files  
+index.html     # main entry file  
+README.md      # project documentation
