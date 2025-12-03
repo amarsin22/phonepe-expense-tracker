@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand Colors (PhonePe style) */
+:root {
+  --pp-purple: #5f2eea;
+  --pp-indigo: #3b82f6;
+  --pp-teal: #16d4bd;
+}
+
+/* Full height */
+html, body, #root {
+  height: 100%;
+}
+
+/* LIGHT MODE BACKGROUND */
+body {
+  background: #f3f4f6; /* Light gray theme background */
+  color: #1f2937;      /* Dark text */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* DARK MODE BACKGROUND */
+.dark body {
+  background: linear-gradient(180deg, rgba(12,12,16,0.8), rgba(6,6,8,0.8));
+  color: #e5e7eb;
+}
+
+/* Global blur effect */
+.backdrop-card {
+  backdrop-filter: blur(12px);
+}
+
+/* Fix chart responsiveness */
+canvas {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Scrollbar design (PhonePe style) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.4);
+  border-radius: 20px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(220, 220, 220, 0.4);
+}
+
+/* Smooth transitions for theme switch */
+* {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
